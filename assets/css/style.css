@@ -484,10 +484,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .lines:before{
 	content: "";
     width: 2px;
-    height: 91.5%;
+    height: 91.58%;
     background: #b2c1ce;
     position: absolute;
-    top: 0.5%;
+    top: 0.3%;
     left: 45.8%;
     z-index: -1;
 }
@@ -870,3 +870,4 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*========================Thank you=================
+
