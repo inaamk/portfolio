@@ -47,19 +47,31 @@
     
 }/*max-width:768px*/
 
-@media screen and (max-width:767px){
-	.single-about-img {max-width: 450px;}
-	.experience-time span>i,.timeline-content span>i,.main-timeline:before {display: none;}
-	.experience-time, .timeline-content {margin-left: 0;}
+@media screen and (max-width: 767px) {
+    .header-text h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
 
-	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
+    .header-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
 
-	.single-profile {max-width: 350px; margin: 30px auto;border: 0;}
-	.profile-border{border: 0;}
+    .header-text a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 
-	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+    .header-text .sub-title {
+        font-size: 13px;
+    }
 
-}/*max-width:767px*/
+    .header-text .mission-text {
+        font-size: 13px;
+    }
+}
+
 
 @media screen and (max-width: 660px){
 
