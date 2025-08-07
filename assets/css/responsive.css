@@ -70,6 +70,27 @@
     .header-text .mission-text {
         font-size: 14px;
     }
+	
+	
+	.experience-time span > i,
+	.timeline-content span > i,
+	.main-timeline:before {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 10px;
+		transform: translateX(-50%);
+		background: #e91e63;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+	.timeline-content {
+		padding-left: 20px;
+		position: relative;
+	}
+
 }
 
 
